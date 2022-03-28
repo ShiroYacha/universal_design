@@ -1,7 +1,4 @@
 library universal_design;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:universal_design/src/universal_design_app.dart';
+export 'package:universal_design/src/responsive/responsive_sized_box.dart';
